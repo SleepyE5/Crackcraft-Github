@@ -22,7 +22,7 @@ This modpack is for private use only. No contributions are being accepted at thi
 
 **License**
 
-This modpack is licensed under the [license name] license. A mystical,create vanilla based modpack
+This modpack is licensed under the MIT license. A mystical,create vanilla based modpack
 
 
 
