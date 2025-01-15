@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "projecte": {
+    "emc_provider": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
