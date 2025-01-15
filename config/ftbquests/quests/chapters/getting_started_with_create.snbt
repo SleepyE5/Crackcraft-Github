@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started_with_create"
+	group: "6F9D27470352CE33"
+	id: "29E2AB74CBDD1872"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/accept.png"
+				}
+			}
+			id: "2ACA48DD4A50AA7D"
+			rewards: [{
+				id: "02D6CAD03B8DADED"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "gear"
+			subtitle: "Getting starting in the massive world of create"
+			tasks: [{
+				id: "5EF0E8ADC1FFE0EE"
+				title: "starting Create"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2ACA48DD4A50AA7D"]
+			id: "01EF85F0A8D0BB8A"
+			rewards: [{
+				count: 10
+				id: "3CB4A2D130CDA822"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Welcome to hell"
+			tasks: [{
+				count: 5L
+				id: "2A2D998DC6887503"
+				item: { Count: 5, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01EF85F0A8D0BB8A"]
+			hide_details_until_startable: true
+			id: "12D7D54E7EECF4CB"
+			rewards: [
+				{
+					count: 16
+					id: "3052CCF6DD43CE52"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "66482F196380CAFC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "36A9AA706F8EDD20"
+				item: { Count: 16, id: "create:shaft" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12D7D54E7EECF4CB"]
+			id: "793BA03C9EBF11E3"
+			rewards: [{
+				count: 16
+				id: "189EDEED0E2F6324"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2D736796E03C8931"
+				item: { Count: 4, id: "create:cogwheel" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["793BA03C9EBF11E3"]
+			id: "7BD0472D52ADCF1D"
+			rewards: [{
+				count: 20
+				id: "505DFDAF589577F3"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "1098A212EB00F85B"
+				item: { Count: 10, id: "create:large_cogwheel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12D7D54E7EECF4CB"]
+			id: "50202EA491CF81BF"
+			rewards: [{
+				count: 10
+				id: "600AB09030CCC60A"
+				item: "create:shaft"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "06BB932A660761EC"
+				item: { Count: 4, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"50202EA491CF81BF"
+				"793BA03C9EBF11E3"
+			]
+			id: "09994A57FC46C793"
+			rewards: [
+				{
+					count: 20
+					id: "531AD8A2E02D7057"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "1FD6591E5324A8AF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "1AFDF57839697C93"
+				item: { Count: 3, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01EF85F0A8D0BB8A"]
+			hide_details_until_startable: true
+			id: "61238D620602CBC8"
+			rewards: [{
+				count: 11
+				id: "4EAD856002C86DF0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "3E71B6128B3FC123"
+				item: { Count: 10, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12D7D54E7EECF4CB"]
+			id: "5D61A7133C52FA1D"
+			tasks: [{
+				count: 10L
+				id: "1D22ED2D76DFB840"
+				item: { Count: 10, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ACA48DD4A50AA7D"]
+			description: [
+				"Pondering is an in-game guide system that allows the player to quickly get information about Create blocks."
+				""
+				"The pondering screen shows an example contraption that explains the functions of the block. "
+				""
+				""
+				"&lUsage&r"
+				""
+				"The full Ponder Index can be accessed through the Create menu by clicking the Engineer's Goggles Engineer's Goggles icon in the pause menu."
+				""
+				"An item can be Pondered by hovering over it in the inventory and holding forward (\"W\" by default) until the bar below the item is filled up. This displays an animated infographic about the item being pondered. "
+				""
+				"&lKeybinds&r"
+				""
+				"The keybinds for ponder are the same as those for certain player actions."
+				""
+				"    Q - Activate Identify mode. This pauses the current ponder scene. Hovering over Create elements shows the name of the block and gives the option to ponder those elements."
+				"    S - Restart the current animation."
+				"    A or D - Go backwards or forwards a scene, if available."
+				"    E - Close the animation."
+				""
+				"Comfy Reading does not currently have a keybind, but can be enabled by tapping the button in the bottom right. This slows down the entire animation to help read the text boxes. "
+				""
+				"&lNavigation&r"
+				""
+				"While Pondering, similar or relevant machines can be viewed by clicking the icon to the left or activating identify mode and holding W over a visible component. After moving away from the initially pondered item, the option to \"Think Back\" can be found at the bottom left. The player can skip to specific parts of an animation by clicking different sections of the gray bar at the bottom. "
+			]
+			id: "61424D66E5F0BF94"
+			rewards: [{
+				id: "6F0461AC7EEF557F"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Understanding what everything does"
+			tasks: [{
+				id: "2936C0DEF6476A31"
+				title: "Pondering"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+	]
+	title: "Getting started with create"
+}
