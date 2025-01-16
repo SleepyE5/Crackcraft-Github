@@ -18,6 +18,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "Gettings started in create"
 			tasks: [{
 				count: 10L
 				id: "44412F63FF0067AE"
@@ -37,6 +38,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "The Water Wheel is a source of rotational power. It generates Rotational Force when water flows over it.Due to the fact that the materials required to craft it are easily accessible, the Water Wheel serves as the simplest automatic generator and can be made very early in the game.Total stress capacity can be increased by adding more wheels in parallel. "
 			tasks: [{
 				id: "7A8CDFDAD32EC27C"
 				item: "create:andesite_alloy"
@@ -49,6 +51,7 @@
 			dependencies: ["6FBD3FB52E512E20"]
 			id: "726904EEAF8A7288"
 			shape: "rsquare"
+			subtitle: "Copper ingots are metal ingots that can be obtained from smelting up raw copper or by lucky drowned drops when killed. "
 			tasks: [{
 				count: 10L
 				id: "0943987D6A8DF144"
@@ -68,6 +71,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "The Copper Backtank carries pressurized air. "
 			tasks: [{
 				id: "5D3220507E2AE323"
 				item: {
@@ -134,6 +138,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "When attached you can see the speed of rotation of your system"
 			tasks: [{
 				id: "312DBA7323CD621F"
 				item: "create:speedometer"
@@ -152,6 +157,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Allows you to see and mage your stress in your system don't let it get to high or your system will stop"
 			tasks: [{
 				id: "2990154D61A22110"
 				item: "create:stressometer"
@@ -170,6 +176,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "right clicking the alloy onto a striped log"
 			tasks: [{
 				count: 10L
 				id: "149CB73D1051C735"
@@ -183,6 +190,7 @@
 			dependencies: ["726904EEAF8A7288"]
 			id: "4ED91A6512A1A001"
 			shape: "rsquare"
+			subtitle: "Fluid Pipes are blocks used to transport and deal with fluids. "
 			tasks: [{
 				count: 6L
 				id: "049F93DBE9F02AB3"
@@ -205,6 +213,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "The shaft is a basic mechanical component in Create. A shaft can be used to connect two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed. "
 			tasks: [{
 				count: 10L
 				id: "5EEC667B748839C4"
@@ -225,6 +234,7 @@
 			}]
 			shape: "gear"
 			size: 2.5d
+			subtitle: "The Cogwheel is a basic mechanical component in Create that relays rotation. "
 			tasks: [{
 				count: 6L
 				id: "09CD32A4C0B106C8"
@@ -251,6 +261,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Water Wheel is a source of rotational power. It generates Rotational Force when water flows over it. Due to the fact that the materials required to craft it are easily accessible, the Water Wheel serves as the simplest automatic generator and can be made very early in the game. Total stress capacity can be increased by adding more wheels in parallel. "
 			tasks: [{
 				count: 3L
 				id: "0EC5F85DA26F080B"
@@ -303,6 +314,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities. "
 			tasks: [{
 				count: 10L
 				id: "5190C0569C6B8B5B"
@@ -329,6 +341,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Andesite Funnel is used to extract or insert materials into inventories, similar in nature to the Brass Funnel. "
 			tasks: [{
 				count: 2L
 				id: "6A23B94D03B3F7CA"
@@ -355,6 +368,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Andesite Funnel is used to extract or insert materials into inventories, similar in nature to the Brass Funnel. "
 			tasks: [{
 				count: 3L
 				id: "2137111591960E22"
@@ -366,6 +380,7 @@
 		}
 		{
 			dependencies: ["40F384E214D6C4D6"]
+			description: ["when you power the cluch with a redston signal is will stop any rotation."]
 			id: "5C59273FC2C2E840"
 			rewards: [{
 				id: "62DBF915B7825CA7"
@@ -373,6 +388,7 @@
 				xp: 200
 			}]
 			shape: "rsquare"
+			subtitle: "The Clutch stops outgoing rotation when a redstone signal is applied. "
 			tasks: [{
 				count: 3L
 				id: "01CBA95F919014BA"
@@ -399,13 +415,14 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Gearbox is a block used to transfer Rotational power in 4 directions, either horizontally or vertically. "
 			tasks: [{
 				count: 2L
 				id: "07A2CA1C9B41AD82"
 				item: { Count: 2, id: "create:gearbox" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.5d
 			y: 12.0d
 		}
 		{
@@ -425,6 +442,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Windmill Sail is a block used to create a Windmill. "
 			tasks: [{
 				count: 15L
 				id: "37759A6C3583AA99"
@@ -443,6 +461,7 @@
 				xp_levels: 5
 			}]
 			shape: "rsquare"
+			subtitle: "The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids. "
 			tasks: [{
 				id: "5A495A0D71580F17"
 				item: "create:spout"
@@ -455,6 +474,7 @@
 			dependencies: ["4ED91A6512A1A001"]
 			id: "3E65DB4B506259DB"
 			shape: "rsquare"
+			subtitle: "The Item Drain drains fluid from items such as buckets and bottles inserted onto it. "
 			tasks: [{
 				id: "1B549498CD05A4D7"
 				item: "create:item_drain"
@@ -483,6 +503,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Fluid Tank is a fluid storage mechanism that can store up to 8 buckets (displayed as 8,000 mB in-game) of fluid per block. "
 			tasks: [{
 				id: "207372FBA0C7C67B"
 				item: "create:fluid_tank"
@@ -501,6 +522,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "right clicking the alloy onto a striped log"
 			tasks: [{
 				count: 10L
 				id: "5DD99BB8B20D40D5"
@@ -512,6 +534,7 @@
 		}
 		{
 			dependencies: ["40F384E214D6C4D6"]
+			description: ["Allows you to create rotation by right clicking on it"]
 			id: "5497E9D4E798FC0B"
 			rewards: [{
 				id: "051C3357068D4FDD"
@@ -519,6 +542,7 @@
 				xp_levels: 5
 			}]
 			shape: "rsquare"
+			subtitle: "The Hand Crank generates a small amount of Rotational Force through player interaction. "
 			tasks: [{
 				id: "227781C4793F5F77"
 				item: "create:hand_crank"
@@ -531,6 +555,7 @@
 			dependencies: ["13D75CCD9B91A6B1"]
 			id: "37D4A3FDB2D3F491"
 			shape: "rsquare"
+			subtitle: "The Depot is used as an interaction point for machines such as the Mechanical Arm. "
 			tasks: [{
 				count: 3L
 				id: "70FC03D7E7B2107D"
@@ -544,6 +569,7 @@
 			dependencies: ["13D75CCD9B91A6B1"]
 			id: "18669F6E41F6ACB4"
 			shape: "rsquare"
+			subtitle: "The Basin is a block that holds items and fluids used in Packing, Compacting, and Mixing recipes. A Basin can also function as an interaction point in fluid systems as fluids can be placed in or removed from a Basin directly by a player. In a survival game, a Basin's most significant function is creating Brass, which is essential for the creation of most advanced components. "
 			tasks: [{
 				id: "2570AA197A1F49DB"
 				item: "create:basin"
@@ -559,6 +585,7 @@
 			]
 			id: "25A986B7A64E923A"
 			shape: "rsquare"
+			subtitle: "The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it. It is an important early-game item, as it is used to press Ingots into Sheets, which are important ingredients for higher-level components.The Mechanical Press is powered by an internal Shaft, accessed from two opposite sides. Much like Shafts, Presses will relay rotation along their axis. It processes items faster when it receives faster rotational power. "
 			tasks: [{
 				count: 2L
 				id: "58ED233DA6B081DF"
@@ -611,6 +638,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins. "
 			tasks: [{
 				id: "7B22688E159F8119"
 				item: "create:mechanical_mixer"
@@ -641,6 +669,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes. It can be used for heating Steam Engines, Bulk Smoking, Bulk Smelting, and as a decorative light source. "
 			tasks: [{
 				count: 2L
 				id: "67966E335CD8E0D6"
@@ -667,6 +696,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Zinc Ingot is an ingot used to create Brass Ingots. "
 			tasks: [{
 				count: 5L
 				id: "312E8F21EAAFDD05"
@@ -689,6 +719,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "The Brass Ingot is often used in any component capable of item sorting. It is also an important component in Mechanical Crafters, which are required to create the Crushing Wheel. "
 			tasks: [{
 				count: 10L
 				id: "66EE70AA35AEB53C"
@@ -725,6 +756,7 @@
 			]
 			shape: "gear"
 			size: 1.6d
+			subtitle: "Mechanical Crafters are machines that can automatically craft items."
 			tasks: [{
 				count: 8L
 				id: "5AF251EC92338CBE"
@@ -1015,6 +1047,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "The Deployer simulates player actions on blocks or entities exactly 2 blocks away from it. "
 			tasks: [{
 				count: 2L
 				id: "785012D80FD03B1B"
@@ -1105,6 +1138,7 @@
 			}]
 			shape: "gear"
 			size: 1.8d
+			subtitle: "The Steam Engine is a block that provides Rotational Force. It outputs the highest Stress Unit (SU) capacity of all the survival-mode power-generating blocks. It converts the pressure caused by heating Water in a Fluid Tank into Rotational Force, allowing for large scale item production and multiple contraptions. "
 			tasks: [{
 				count: 6L
 				id: "7BD6793308D39030"
@@ -1186,6 +1220,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Train Tracks are special blocks used to support Trains. "
 			tasks: [{
 				count: 30L
 				id: "7C49A47628F4CB95"
@@ -1197,6 +1232,7 @@
 		}
 		{
 			dependencies: ["7E028CA2EB02FCA1"]
+			description: ["https://create.fandom.com/wiki/Casing#Train"]
 			id: "49DDDC78672004E3"
 			rewards: [{
 				id: "6AB4A4F592517549"
@@ -1204,6 +1240,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
+			subtitle: "https://create.fandom.com/wiki/Casing#Train"
 			tasks: [{
 				count: 10L
 				id: "6E4552097E947856"
@@ -1217,6 +1254,7 @@
 			dependencies: ["49DDDC78672004E3"]
 			id: "717A6FE77F73B38D"
 			shape: "rsquare"
+			subtitle: "Train Controls are required in the creation of Trains. "
 			tasks: [{
 				id: "33521A962D854B5B"
 				item: "create:controls"
@@ -1242,6 +1280,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Train Stations are used to create, disassemble, and guide Trains. "
 			tasks: [{
 				count: 2L
 				id: "4A0517B8CC0C55E7"
@@ -1269,6 +1308,7 @@
 			]
 			shape: "rsquare"
 			size: 1.2d
+			subtitle: "The Mechanical Arm is a block used to transfer items. "
 			tasks: [{
 				count: 2L
 				id: "7B6DD316ED409A95"
@@ -1287,6 +1327,7 @@
 				xp_levels: 5
 			}]
 			shape: "rsquare"
+			subtitle: "Train Signals are used to control the flow of Trains not driven by players. "
 			tasks: [{
 				count: 4L
 				id: "39FE5BFAD950670D"
@@ -1402,22 +1443,107 @@
 			y: 18.0d
 		}
 		{
-			id: "43A85EC87F3D7F7F"
+			dependencies: ["13D75CCD9B91A6B1"]
+			id: "7A638D0018E5C59C"
 			rewards: [{
-				count: 64
-				id: "155E121988611C27"
-				item: "minecraft:egg"
+				id: "1F5A863942ED1606"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			subtitle: "Getting started with schmatics"
+			tasks: [
+				{
+					id: "3BC0063B93FC60A1"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "759A00CD7D9E7367"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7A638D0018E5C59C"]
+			id: "3CD3BEA287721BD5"
+			shape: "rsquare"
+			subtitle: "The Schematicannon is a special type of machine used to build structures with the use of Schematics. It is a useful contraption which is primarily used within Survival Mode to deploy structures block-by-block, as the function of direct placement for Schematics are limited exclusively to Creative Mode. "
+			tasks: [
+				{
+					id: "16F71A11832BEDAE"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "6BED4C47A5B409F8"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4ED91A6512A1A001"]
+			id: "419CCEAA39C1A9E1"
+			shape: "rsquare"
+			subtitle: "The Hose Pulley lets down a hose that can drain bodies of liquids. "
+			tasks: [{
+				id: "512EC3B1512ADD6D"
+				item: "create:hose_pulley"
 				type: "item"
 			}]
-			subtitle: "Though \"E\" is quite experienced in Create this Guide isn't great."
-			tasks: [{
-				id: "31E2FC3A18834D22"
-				title: "Secret Message"
-				type: "checkmark"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["527A77F5459DABA4"]
+			id: "100A38E9D23C3404"
+			rewards: [{
+				id: "62B0EC2EF020FEA4"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
-			title: "From \"M\""
-			x: 63.5d
-			y: -27.5d
+			shape: "rsquare"
+			subtitle: "Crushing Wheels are the more advanced version of the Millstone. It applies Crushing recipes to any items inserted from the direction they are spinning away from. "
+			tasks: [{
+				count: 2L
+				id: "1A29CD0748EA693A"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6D909AC20F59223B"]
+			id: "65E00E72B04A1001"
+			shape: "rsquare"
+			subtitle: "The Gearbox is a block used to transfer Rotational power in 4 directions, either horizontally or vertically. "
+			tasks: [{
+				id: "006B4E1984753B98"
+				item: "create:vertical_gearbox"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2A01AEBB3D29D74E"]
+			id: "34D31A17A8285049"
+			shape: "rsquare"
+			subtitle: "Mechanical Saws are powered through rotational force, and when placed down facing to the side they will automatically chop down wood blocks in front of them. When chopping down a tree or giant mushroom, it will automatically destroy the entire tree by only destroying the bottom-most block. Blocks tagged as TREE_ATTACHMENTS will also be broken if found on the tree. "
+			tasks: [{
+				id: "2B8E5177F6A53A66"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 11.5d
 		}
 	]
 	title: "Steampunk"
