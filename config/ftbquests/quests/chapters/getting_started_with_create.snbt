@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "The Water Wheel is a source of rotational power. It generates Rotational Force when water flows over it.Due to the fact that the materials required to craft it are easily accessible, the Water Wheel serves as the simplest automatic generator and can be made very early in the game.Total stress capacity can be increased by adding more wheels in parallel. "
+			subtitle: "Andesite Alloy is a material used in Andesite Casing and simple kinetic blocks, which serves as an entry-point to the mechanical components of Create. Among its many functions, it is an essential ingredient for crafting Shafts and both regular and large Cogwheels. Andesite Alloy is the most basic component construction material in Create. "
 			tasks: [{
 				id: "7A8CDFDAD32EC27C"
 				item: "create:andesite_alloy"
@@ -798,6 +798,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "The Extendo Grip is a tool that can be used to increase the player's reach. "
 			tasks: [{
 				id: "1582DE9B8030BDC5"
 				item: {
@@ -881,6 +882,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Super Glue holds structures in Contraptions together."
 			tasks: [{
 				id: "692B6263CD48E2DF"
 				item: {
@@ -1120,6 +1122,7 @@
 				xp_levels: 5
 			}]
 			shape: "rsquare"
+			subtitle: "Engineer's Goggles are a wearable item that allow the user to see more details about placed machines. "
 			tasks: [{
 				id: "0058C100FC92427E"
 				item: "create:goggles"
@@ -1157,7 +1160,7 @@
 				xp_levels: 5
 			}]
 			shape: "rsquare"
-			subtitle: "You are a plumber"
+			subtitle: "The Wrench is a tool used to rotate, dismantle and configure components "
 			tasks: [{
 				id: "17A0119F2E5D7E1F"
 				item: "create:wrench"
@@ -1410,6 +1413,7 @@
 			dependencies: ["7E028CA2EB02FCA1"]
 			id: "1AB17DB31BEBAE7E"
 			shape: "rsquare"
+			subtitle: "Train Schedules are used to instruct non-player Train conductors. "
 			tasks: [{
 				id: "71B65EBFCBAFAF92"
 				item: "create:schedule"
