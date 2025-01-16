@@ -1123,7 +1123,7 @@
 				xp_levels: 5
 			}]
 			shape: "rsquare"
-			subtitle: "You are a plummer"
+			subtitle: "You are a plumber"
 			tasks: [{
 				id: "17A0119F2E5D7E1F"
 				item: "create:wrench"
@@ -1400,6 +1400,24 @@
 			}]
 			x: 21.75d
 			y: 18.0d
+		}
+		{
+			id: "43A85EC87F3D7F7F"
+			rewards: [{
+				count: 64
+				id: "155E121988611C27"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			subtitle: "Though \"E\" is quite experienced in Create this Guide isn't great."
+			tasks: [{
+				id: "31E2FC3A18834D22"
+				title: "Secret Message"
+				type: "checkmark"
+			}]
+			title: "From \"M\""
+			x: 63.5d
+			y: -27.5d
 		}
 	]
 	title: "Steampunk"

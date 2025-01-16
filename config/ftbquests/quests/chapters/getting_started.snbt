@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "07A7D8C127889164"
+	icon: "supplementaries:globe"
+	id: "57947759CAA4C1A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "luphieclutteredmod:luphie_white_sink"
+			id: "63BC1B5CE99C8168"
+			rewards: [{
+				id: "5148DCFA154A1828"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Unlike most modpacks Crackcraft is really just a kitchen sink pack. but if we just gave you the mod list you would have no clue what to do this quest book is here to help. - M"
+			tasks: [{
+				id: "592154FD207542A2"
+				title: "Read the foreward "
+				type: "checkmark"
+			}]
+			title: "Starting out"
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63BC1B5CE99C8168"]
+			id: "2309C0FB3D1A1953"
+			subtitle: "First thing you make in Vannilla? A crafting table. But isn't such a pain to have to place one down just to use it. Well just combine a stick and crafting table in your inventory to make a crafting table on a stick. Be sure to place it in the curios slot and change the bind to a free key."
+			tasks: [{
+				id: "48668EC6BC2FA6B7"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting on the go"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63BC1B5CE99C8168"]
+			id: "240546F93B6E20E2"
+			subtitle: "Crackcraft has a couple of Mod's related to combat. The Three your most likely to encouter are Better Combat, Age of weapons and Simple weapons. So go kill a zombie and craft a new weapon to test them out. "
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					Count: 1
+					id: "simple_weapons:stone_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3A9E6EA1B83BCD23"
+				title: "Better Combat?"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			id: "1F32A7FFDF6C5381"
+			rewards: [
+				{
+					id: "1BF469D69A117818"
+					item: "handcrafted:oak_chair"
+					type: "item"
+				}
+				{
+					id: "5626593BA1065663"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Cluttered is a mod that add's a lot of items. Unfortunately Most of Cluttered's items are unable to be interacted with but you can make some really nice interiors. Macaws furniture and Handcrafted and are both mod's that adds, You guessed it furniture but unlike cluttred the furniture actually works. "
+			tasks: [
+				{
+					id: "63145FAD5A6B36ED"
+					title: "I like pretty shit"
+					type: "checkmark"
+				}
+				{
+					id: "5957573C54A1F867"
+					title: "I like it when pretty stuff has a use"
+					type: "checkmark"
+				}
+			]
+			title: "Pretty Decorations \\&\\ Furniture"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2309C0FB3D1A1953"]
+			id: "70A9A86E15856C32"
+			rewards: [{
+				id: "7DE0A3D04DA26C6F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "The next thing you'll want to do before night is also the same as vanilla and that is craft a bed to sleep the night away. It should also be stated that Handcrafted's Fancy beds are the only modded beds that can be slept in."
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				icon: "luphieclutteredmod:luphie_darkwood_quilted_bed"
+				id: "5DB33014C5A82AE9"
+				title: "Sleeping the Mosters Away"
+				type: "advancement"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+	]
+	title: "Getting Started"
+}
