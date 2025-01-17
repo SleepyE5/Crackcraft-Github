@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "project_e"
+	group: ""
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: {
+			Charge: 4
+		}
+	}
+	id: "6AE348A324FB09DA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The fabled alchemical catalyst that allows the transmutation of base metals into gold, the Philosopher's Stone is arguably the foundation of ProjectE. There are three basic uses. Firstly, as a component in the construction of items like the Transmutation Table. Secondly, as a transmutation tool, for example turning iron into gold or vice versa. Finally, as a portable crafting table, capable of smelting items. Thirdly, the R button will transform mobs into other mobs. "]
+			id: "30912ACAB5180EF4"
+			rewards: [
+				{
+					id: "0BA8EA7580702910"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6C55FBBD2132ECCB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Philosopher's Stone is both a tool and a crafting component added by ProjectE, based off the Philosopher's Stone added by Equivalent Exchange 2. "
+			tasks: [{
+				id: "3ADF26D51E237023"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: {
+						Charge: 4
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30912ACAB5180EF4"]
+			description: [
+				"    Before it can create an item, the Transmutation Table must \"learn\" the item. This is performed by placing an item with an EMC value into the \"flames\" slot on the GUI. The item is then destroyed, the recipe learned and the EMC value stored in the table."
+				"    Creating an item from EMC is performed by clicking on an item displayed on the right side. Shift-clicking will create an entire stack (if the table holds sufficient EMC)."
+				"    The icon with the crossed-out book is to unlearn unwanted items. Any item placed in this slot will be \"forgotten\" by the table until it is learned again."
+				"    The table will only display items for which there is enough stored EMC to create."
+				"    The information held in the table is linked to the individual player:"
+				"        The table can be picked up and moved without losing any recipes or stored energy."
+				"        Other players accessing the table will only be able to see their own data."
+				"        Personal EMC data can by accessed by using another player's table."
+				"    The Tome of Knowledge can unlock all EMC \"recipes\" without having to craft them first. Any subsequent mods installed will automatically have their items unlocked in the Table as well."
+				"    Klein Stars can be charged by placing a star in one of the slots on the left side of the GUI and it can be discharged by putting it in the slots on the right."
+			]
+			id: "52936568AC9572D2"
+			rewards: [
+				{
+					id: "240DA78160EE551D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "1F26130BA0D546B2"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			subtitle: "The Transmutation Table functions as a battery for EMC energy, a charger for EMC storage items, as a library of blueprints and as a fabricator of items. "
+			tasks: [{
+				id: "26761B3E6735ADC4"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52936568AC9572D2"]
+			id: "5D5A93014E44A85F"
+			rewards: [
+				{
+					id: "7FA62658981CFF65"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 10
+					id: "4A8C3EC2151BFD91"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "30297E634FA70488"
+				item: { Count: 8, id: "projecte:dark_matter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5A93014E44A85F"]
+			id: "584680B66AF3CA91"
+			rewards: [
+				{
+					id: "0DA7434AFBF2F66E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "3EB26295677006AD"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70E0FB95A38969C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:dm_hammer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["584680B66AF3CA91"]
+			id: "7737123C84ED469F"
+			rewards: [{
+				count: 20
+				id: "6B0774A26BCDAB93"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "072A9489662AD303"
+				item: { Count: 10, id: "projecte:red_matter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7737123C84ED469F"]
+			id: "6A4F700AD5F547AC"
+			rewards: [
+				{
+					id: "283438F7454BFFC5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 100
+					id: "40197E7066FBA09E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1D7FB5E0E5860B7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_sword"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "511AC0D820228754"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:rm_hammer"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A4F700AD5F547AC"]
+			id: "028A44219E6D6436"
+			rewards: [
+				{
+					id: "77F4EC30EAB4448C"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "08B906CCE79004BE"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 13
+					id: "78604EF9FD9EA826"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			subtitle: "Best Item in the game lmao"
+			tasks: [{
+				id: "403973E87FF98383"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_katar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52936568AC9572D2"]
+			id: "63B67CA1F999D395"
+			subtitle: "portable one"
+			tasks: [{
+				id: "30E5EB39F2DB7131"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30912ACAB5180EF4"]
+			id: "1DBEA0ACA0259D24"
+			tasks: [{
+				id: "226AFA92F00F2BA5"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DBEA0ACA0259D24"]
+			id: "6B300E0CC69A3AC2"
+			tasks: [{
+				id: "27D619A3BAD28404"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B300E0CC69A3AC2"]
+			id: "4A3C8680F4C20B3A"
+			tasks: [{
+				id: "2E415DDA58DF32BA"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A3C8680F4C20B3A"]
+			id: "041650B3D0ED1595"
+			tasks: [
+				{
+					id: "10520AC828F17987"
+					item: "projecte:nova_catalyst"
+					type: "item"
+				}
+				{
+					id: "29B79109AAA1441B"
+					item: "projecte:nova_cataclysm"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DBEA0ACA0259D24"]
+			id: "57F1E8CA24C0F172"
+			tasks: [
+				{
+					id: "32981EDDA90D1447"
+					item: "projecte:collector_mk1"
+					type: "item"
+				}
+				{
+					id: "7D1AEF5B4B27F66D"
+					item: "projecte:condenser_mk1"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57F1E8CA24C0F172"]
+			id: "693D2E085B0DE4F4"
+			tasks: [{
+				id: "50B0F74D5118847E"
+				item: "projecte:collector_mk2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["693D2E085B0DE4F4"]
+			id: "2D9EA16F53942AFB"
+			tasks: [{
+				id: "56C264F01DC1A110"
+				item: "projecte:collector_mk3"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57F1E8CA24C0F172"]
+			id: "40CFE8B13485A1F7"
+			tasks: [{
+				id: "28D2E54F3E28C0CA"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57F1E8CA24C0F172"]
+			id: "7C975BD0831BCA49"
+			tasks: [{
+				id: "6920B5748DCC2AFA"
+				item: "projecte:relay_mk1"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C975BD0831BCA49"]
+			id: "1E9137E71F2AB42B"
+			tasks: [{
+				id: "7BA5324EC794DDC3"
+				item: "projecte:relay_mk2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E9137E71F2AB42B"]
+			id: "2136F3E3C53E07AA"
+			tasks: [{
+				id: "417C794CF85AF5A1"
+				item: "projecte:relay_mk3"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+	]
+	title: "Project E"
+}
