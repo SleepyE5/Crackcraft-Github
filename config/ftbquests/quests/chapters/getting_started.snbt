@@ -63,6 +63,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"2309C0FB3D1A1953"
+				"240546F93B6E20E2"
+			]
 			id: "1F32A7FFDF6C5381"
 			rewards: [
 				{
@@ -112,6 +116,113 @@
 			}]
 			x: -12.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["240546F93B6E20E2"]
+			id: "46878E610A69C46F"
+			rewards: [{
+				id: "495BAC57EE767C90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Dont you hate that normal sheilds leave half a logs worth of planks. Well rounded sheilds only use 1 logs worth of planks."
+			tasks: [{
+				id: "7B2D707C5256374F"
+				item: {
+					Count: 1
+					id: "ageofweapons:shield_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cheaper Sheilds"
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"46878E610A69C46F"
+				"70A9A86E15856C32"
+				"1F32A7FFDF6C5381"
+			]
+			id: "04D04A0A83F14F7A"
+			rewards: [{
+				id: "544676B67706C27B"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			subtitle: "Crackcraft is really just a kitchen sink mod pack due to this you may feel lost. This quest book will walk you through our five biggest mods; Cataclysm, Botania, Create, Croptopia and Irons Spells \\& Spell Books."
+			tasks: [{
+				id: "7E7EB363C8E504A5"
+				title: "Know what your dealing with"
+				type: "checkmark"
+			}]
+			title: "Now We're Modding"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04D04A0A83F14F7A"]
+			icon: "cataclysm:dying_ember"
+			id: "3739F91673692595"
+			rewards: [{
+				id: "76644C191012BE24"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "octagon"
+			subtitle: "Cataclysm is a mod about exploring the world and fighting some Really hard bosses. I reccomend getting Iron armour before even trying this mod. "
+			tasks: [
+				{
+					id: "7413B20F381B9E33"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E08945EC3275B87"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FE1BCF2F1E5BE4"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2606ED867B00F180"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wellcome to Hell Bitch"
+			x: -7.5d
+			y: -0.5d
 		}
 	]
 	title: "Getting Started"
