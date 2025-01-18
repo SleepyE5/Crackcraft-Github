@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mid_game"
+	group: "07A7D8C127889164"
+	icon: "minecraft:nether_star"
+	id: "77A5BD41F0599175"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5DDAD2739831D4A1"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "If your here you should be entering the midgame. this chapter is here to guide you towards your end goals"
+			tasks: [{
+				id: "3A594EB621AE7857"
+				title: "Mid game"
+				type: "checkmark"
+			}]
+			title: "Entering the mid game"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5DDAD2739831D4A1"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C972FBEC8C12AB9"
+			rewards: [{
+				count: 6
+				id: "1AD2BA371C8D9503"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "In the mid game You should have diamond tier or above gear"
+			tasks: [
+				{
+					id: "30F4A83BE6122C65"
+					title: "Diamond equivalent gear"
+					type: "checkmark"
+				}
+				{
+					advancement: "minecraft:story/mine_diamond"
+					criterion: ""
+					id: "2314BCF93AFF1C0B"
+					title: "Diamonds"
+					type: "advancement"
+				}
+			]
+			title: "Gear"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DDAD2739831D4A1"]
+			icon: "create:blaze_burner"
+			id: "0A80F122D23ECEAB"
+			rewards: [{
+				count: 10
+				id: "6C978C97F1EC7816"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "In the mid game of create you should be using blaze burners for heated mixing"
+			tasks: [
+				{
+					id: "3AD21A9DAA731D64"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "28025D84CBFF1C06"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "Create Machines"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DDAD2739831D4A1"]
+			icon: "irons_spellbooks:blood_staff"
+			id: "13AE7D92B6BDCAEE"
+			rewards: [{
+				count: 5
+				id: "14A390A611D5A0F9"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			subtitle: "Irons progression is sorta weird because the final boss that you have to kill is not the last boss that you'll encouter when maxing out your spell book. By the mid game you should have killed the dead king and started using a spell book with ten spell slots."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "21A0BB8A42CA741F"
+				title: "The \"final\" boss"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Third class Mage"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DDAD2739831D4A1"]
+			id: "3F59361700E6A0DA"
+			rewards: [
+				{
+					count: 20
+					id: "1840A4AA45169D91"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1C1C2F2A4EA168C9"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55F3139BF8CCF32E"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Botania's key mechanic is Mana. Mana can be used to create new flowers and items. Unfortuantley using mana and generating enough mana is pretty difficult but by the mid game you should have a decent set up."
+			tasks: [
+				{
+					count: 5L
+					id: "638149FD49628DCC"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6332A8C6EA6A9F21"
+					item: { Count: 3, id: "botania:mana_pearl" }
+					type: "item"
+				}
+				{
+					id: "34DC53ED6B9C7639"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			title: "Putting the Magic in Magical flowers"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DDAD2739831D4A1"]
+			icon: "cataclysm:ignitium_upgrade_smithing_template"
+			id: "527FC2CCE040183E"
+			rewards: [
+				{
+					count: 8
+					id: "77B18EC3AE6FCE31"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "46CAC3119608B1CC"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "3E7918A9C8241C1C"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+			]
+			subtitle: "If Your progressing through cataclysm once your into the midgame. likely got endgame gear relative to the rest of the pack. So Good luck finishing the pack."
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "52A81E29142182E3"
+					title: "Hellish Beast"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: "cataclysm:remnant_skull"
+					id: "65E5DBB2A07D8C5F"
+					title: "Already Dead"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:meat_shredder"
+					id: "527E5D247825938A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hell Unleashed"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3C972FBEC8C12AB9"
+				"0A80F122D23ECEAB"
+				"13AE7D92B6BDCAEE"
+				"3F59361700E6A0DA"
+				"527FC2CCE040183E"
+			]
+			dependency_requirement: "one_completed"
+			id: "13288DDB3CB11F7B"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "180A1645BAB79A64"
+				title: "Got It!"
+				type: "checkmark"
+			}]
+			title: "The next step"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C972FBEC8C12AB9"
+				"13288DDB3CB11F7B"
+			]
+			id: "1D3B9164E84A22E2"
+			subtitle: "Netherite is still basically. the best gear in the game apart from some very specific items."
+			tasks: [{
+				id: "3B4D18F7AAD69498"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Upgrading"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"04D04A0A83F14F7A"
+				"0A80F122D23ECEAB"
+				"13288DDB3CB11F7B"
+			]
+			id: "32D2C4A88F2B22BC"
+			rewards: [{
+				count: 2
+				id: "023E5129D7C9C0B4"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			subtitle: "The mechanical Arm and crafter are used to create Most of the recipies in create. hope this helps :)"
+			tasks: [
+				{
+					count: 8L
+					id: "2F2D78737EF2A12C"
+					item: { Count: 8, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "636A27574325A707"
+					item: { Count: 2, id: "create:mechanical_arm" }
+					type: "item"
+				}
+			]
+			title: "Just reiterating the guide"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"13288DDB3CB11F7B"
+				"527FC2CCE040183E"
+			]
+			id: "3D6D4BA94E778FFF"
+			rewards: [{
+				count: 32
+				id: "76E7DBFD86DFF92A"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Just like Vanilla the final boss of Cataclysm is found in the end. so your next step is to visit the end"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:ender_eye"
+				id: "1B01873A64372EC6"
+				title: "The Litteral End game "
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"13288DDB3CB11F7B"
+				"13AE7D92B6BDCAEE"
+			]
+			id: "0C5943A6E7E38DA6"
+			rewards: [{
+				count: 15
+				id: "39E809A561EAA602"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			subtitle: "Yeah to get the most powerfull spell book's in Irons is to go to the Ancient city and find the ruined book."
+			tasks: [{
+				id: "61CF1BDD5FF6CF75"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			title: "FUUUUUUUUCK"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3F59361700E6A0DA"
+				"13288DDB3CB11F7B"
+			]
+			id: "4E7D8A4814DF2558"
+			rewards: [{
+				count: 2
+				id: "17709A5D8EB5793F"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			subtitle: "Terra steel is quite important in the process of crafting the Final Item for botania in the modpack."
+			tasks: [{
+				count: 3L
+				id: "73FFF46CB36865CE"
+				item: { Count: 3, id: "botania:terrasteel_ingot" }
+				type: "item"
+			}]
+			title: "The steel to end the game"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1D3B9164E84A22E2"
+				"0C5943A6E7E38DA6"
+				"4E7D8A4814DF2558"
+				"3D6D4BA94E778FFF"
+				"32D2C4A88F2B22BC"
+			]
+			dependency_requirement: "one_completed"
+			id: "07D7C9590072715F"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "If you want to see the final goals in the mod pack visit the chapter \"The Grand Finale\""
+			tasks: [{
+				id: "212BCB2E8A4122E7"
+				title: "Knowing the final goals"
+				type: "checkmark"
+			}]
+			title: "Now were getting there"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "76F003BE036CDD00"
+			rewards: [{
+				id: "6FFCAA0C93B654D5"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "The transmutation table allows you to convert Items into EMC and EMC into prevously converted items."
+			tasks: [{
+				id: "78CA7FE5B3D1E6E5"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			title: "Oh lord \"Infinite items\""
+			x: 0.0d
+			y: -7.5d
+		}
+	]
+	title: "Mid Game"
+}

@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: ""
+	icon: "cataclysm:dying_ember"
+	id: "0B2DF3B8771DA38D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BEEE24FE3CF2BF7"
+			rewards: [{
+				count: 5
+				id: "5CAD40784CEB13AB"
+				item: "cataclysm:ancient_metal_nugget"
+				type: "item"
+			}]
+			subtitle: "The first boss that we will be fghting in Cataclysm is called the anceint remnant. and you can find it in the ruined pyramid"
+			tasks: [{
+				id: "1E044CDF791369C3"
+				structure: "cataclysm:cursed_pyramid"
+				title: "Visiting the Remnant"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "4EC01A640A1CD2A5"
+			rewards: [
+				{
+					id: "321A8E5726F020B9"
+					item: "cataclysm:remnant_skull"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "3AC140507A1DB67A"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CDC26A5DF7DED36"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Killing  the bitch"
+			x: -1.5d
+			y: -3.5d
+		}
+	]
+	title: "Cataclysm"
+}

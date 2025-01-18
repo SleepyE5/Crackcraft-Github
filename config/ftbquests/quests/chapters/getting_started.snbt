@@ -31,7 +31,12 @@
 		{
 			dependencies: ["63BC1B5CE99C8168"]
 			id: "2309C0FB3D1A1953"
-			subtitle: "First thing you make in Vannilla? A crafting table. But isn't such a pain to have to place one down just to use it. Well just combine a stick and crafting table in your inventory to make a crafting table on a stick. Be sure to place it in the curios slot and change the bind to a free key."
+			rewards: [{
+				id: "5C9ED7F620B0C82C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "First thing you make in Vannilla? A crafting table. But isn't such a pain to have to place one down just to use it. Well just combine a stick and crafting table in your inventory to make a crafting table on a stick. Be sure to place it in the curios slot and change the bind to a free key. Another item you should use in curios is the backpack which allow you to carry extra items."
 			tasks: [{
 				id: "48668EC6BC2FA6B7"
 				item: "crafting_on_a_stick:crafting_table"
@@ -44,6 +49,11 @@
 		{
 			dependencies: ["63BC1B5CE99C8168"]
 			id: "240546F93B6E20E2"
+			rewards: [{
+				id: "58F2CBACECF8FE16"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Crackcraft has a couple of Mod's related to combat. The Three your most likely to encouter are Better Combat, Age of weapons and Simple weapons. So go kill a zombie and craft a new weapon to test them out. "
 			tasks: [{
 				entity: "minecraft:zombie"
@@ -221,8 +231,107 @@
 				}
 			]
 			title: "Wellcome to Hell Bitch"
-			x: -7.5d
+			x: -7.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["04D04A0A83F14F7A"]
+			icon: {
+				Count: 1
+				id: "botania:terra_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "594B279032A4322A"
+			rewards: [{
+				id: "0DE4C7F6FDA9E079"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			subtitle: "Botania is a mod with magical flowers. With botania you'll have to grow a ton of differnt flowers to generate Mana and give special effects. Later on in Botania you'll also find items from Terraria."
+			tasks: [{
+				id: "345AAFB60CEF6D58"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "Magical flowers"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04D04A0A83F14F7A"]
+			icon: "croptopia:starfruit"
+			id: "21211BF9CBF8D8C8"
+			rewards: [{
+				id: "41F4E9E0A925299C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "01AC395A8EADEF67"
+				item: "croptopia:guide"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"04D04A0A83F14F7A"
+				"6FBD3FB52E512E20"
+			]
+			icon: "create:large_cogwheel"
+			id: "16B112DF26EAF51A"
+			rewards: [{
+				id: "2FE2D5003392EF43"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "Create is a steampunk style mod that uses  Stress Units (SU) to power its machines. You can use create machines to set up transport networks or use them for automation."
+			tasks: [{
+				count: 10L
+				id: "473EFC4FB52CDA49"
+				item: { Count: 10, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			title: "Steampunk 1877"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04D04A0A83F14F7A"]
+			icon: "irons_spellbooks:ender_upgrade_orb"
+			id: "73F2BDBDE29EC518"
+			rewards: [{
+				id: "635E4B77C49ECA6F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			subtitle: "Iron's spells and spell books is the magic mod of the pack. Irons has its own progression system allowing you to maximise your mana and spell slots. there are a ton of spells for you to mix and match in Iron's so be sure to check them all out. "
+			tasks: [{
+				id: "4C38E280BD818C00"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Mastering Magic"
+			x: -8.5d
+			y: 2.5d
 		}
 	]
 	title: "Getting Started"
