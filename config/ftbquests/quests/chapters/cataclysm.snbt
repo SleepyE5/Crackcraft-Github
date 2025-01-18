@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "cataclysm:polished_sandstone"
 			id: "6BEEE24FE3CF2BF7"
 			rewards: [{
 				count: 5
@@ -16,6 +17,8 @@
 				item: "cataclysm:ancient_metal_nugget"
 				type: "item"
 			}]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "The first boss that we will be fghting in Cataclysm is called the anceint remnant. and you can find it in the ruined pyramid"
 			tasks: [{
 				id: "1E044CDF791369C3"
@@ -23,10 +26,11 @@
 				title: "Visiting the Remnant"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["6BEEE24FE3CF2BF7"]
 			id: "4EC01A640A1CD2A5"
 			rewards: [
 				{
@@ -41,6 +45,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Kill the the Anceint Remnant. Good luck"
 			tasks: [{
 				id: "5CDC26A5DF7DED36"
 				item: {
@@ -52,9 +57,290 @@
 				}
 				type: "item"
 			}]
-			title: "Killing  the bitch"
-			x: -1.5d
+			title: "Becoming the asteroid"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EC01A640A1CD2A5"]
+			icon: "cataclysm:witherite_block"
+			id: "179DFC9AA8E74CC5"
+			rewards: [{
+				count: 3
+				id: "536FC0D661F1BE1A"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			subtitle: "Find the anceint factory. "
+			tasks: [{
+				id: "0C37F735C4A214C0"
+				structure: "cataclysm:ancient_factory"
+				title: "Enter the ancient factory"
+				type: "structure"
+			}]
+			title: "Ancient Robots? We barely have computers"
+			x: -2.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["179DFC9AA8E74CC5"]
+			id: "308A16AE813207F2"
+			rewards: [{
+				count: 7
+				id: "2DAFFBCD8A24B6F9"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			subtitle: "Find and Kill the Harbinger. "
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:meat_shredder"
+				id: "4A4D8C6F9270701E"
+				title: "Deafeat the Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Reinforcing the Divine"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["308A16AE813207F2"]
+			id: "3CD15EDD220BB601"
+			subtitle: "Find the Soulforge, "
+			tasks: [{
+				id: "6A351079B59BE962"
+				structure: "cataclysm:soul_black_smith"
+				title: "Final Resting Place"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CD15EDD220BB601"]
+			id: "590D49C9E4308B79"
+			rewards: [
+				{
+					count: 2
+					id: "287274534A042064"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					id: "05F615AB118A7AD9"
+					item: "reliquary:pedestals/passive/white_passive_pedestal"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the Netherite Monstrosity"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_horn"
+				id: "4D23F9848B7BD284"
+				title: "The Molten vessel"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Freeing the Forsakened"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["590D49C9E4308B79"]
+			id: "44AC1975CFC25BCB"
+			subtitle: "Find the Sunken City and the Altar of a Thousand Gods"
+			tasks: [{
+				id: "23C40077F8FEEFC8"
+				structure: "cataclysm:sunken_city"
+				title: "Altar of a thousand gods"
+				type: "structure"
+			}]
+			title: "La Maison Oubliée Perdue Dans La Mer"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44AC1975CFC25BCB"]
+			id: "5B1BE4194EE8AC4E"
+			rewards: [{
+				id: "25B9700D89E40EAA"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			subtitle: "Deafeat the Leviathan "
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:altar_of_abyss"
+				id: "1D74C4E2CDF03E03"
+				title: "Defeat the Abyssal beast"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Abyss that Ate a Thousand Gods"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B1BE4194EE8AC4E"]
+			id: "68FABB07B8557AE3"
+			rewards: [{
+				id: "724739190B913DFA"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			subtitle: "Find the Frozen Prison"
+			tasks: [{
+				icon: "botania:ice_pendant"
+				id: "47EE0D89A9E68A30"
+				structure: "cataclysm:frosted_prison"
+				title: "Frozen Crime's"
+				type: "structure"
+			}]
+			title: "Cold, Dark and Alone"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68FABB07B8557AE3"]
+			id: "698C04A55C3B6F1C"
+			rewards: [{
+				id: "77D41607FFF120F7"
+				item: "cataclysm:the_annihilator"
+				type: "item"
+			}]
+			subtitle: "Defeat Maledictus"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_tombstone"
+				id: "6D00565FF629937C"
+				title: "Allow the guard's body to decay"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Forsaken Honour"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["698C04A55C3B6F1C"]
+			id: "6C8C6E09F3D29D08"
+			rewards: [{
+				count: 5
+				id: "291EEDD68EB7FDD1"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			subtitle: "Find the burning arena"
+			tasks: [{
+				icon: "cataclysm:altar_of_fire"
+				id: "13D08314C52B5E0D"
+				structure: "cataclysm:burning_arena"
+				title: "The arena set ablaze"
+				type: "structure"
+			}]
+			title: "Blazing Passion"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C8C6E09F3D29D08"]
+			id: "2AE5D0EB3560C5AD"
+			rewards: [
+				{
+					id: "3B60E42464B5D5DC"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "609F1BED41E3CD3C"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat Ignis and prepare for the end."
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:the_incinerator"
+				id: "42C323322C81A46F"
+				title: "Extinguished  Heart"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Infernal Warrior "
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BECB965A7875745"]
+			id: "110049B6F2E2DF11"
+			rewards: [
+				{
+					id: "6312519023A3D1CD"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+				{
+					id: "39403D025F9E6A5F"
+					item: "cataclysm:void_stone"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "Defeat the Ender Guardian, and avert the Cataclysm"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_core"
+				id: "7A5ABCBF66836CA6"
+				title: "Quelling the Cataclysm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "And Never Return"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AA8EFBD9A8BDC5E"]
+			id: "4BECB965A7875745"
+			rewards: [{
+				id: "1C9EE0DD3628D745"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			subtitle: "Defeat the Ender Golem to open the door to the Ender Gaurdian"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:altar_of_void"
+				id: "51AD1172A9D14CFA"
+				title: "The Bouncer at end"
+				type: "kill"
+				value: 1L
+			}]
+			title: "At the final door there always is "
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AE5D0EB3560C5AD"]
+			id: "4AA8EFBD9A8BDC5E"
+			rewards: [{
+				id: "754720C3A4677ADC"
+				item: "cataclysm:music_disc_ignis"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cataclysm:void_eye"
+				id: "048249A27AAC9182"
+				structure: "cataclysm:ruined_citadel"
+				title: "The Final Foretress "
+				type: "structure"
+			}]
+			title: "Ruined Containment"
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 	title: "Cataclysm"
