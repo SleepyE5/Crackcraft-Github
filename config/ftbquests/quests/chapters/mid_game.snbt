@@ -204,6 +204,7 @@
 					entity: "cataclysm:the_harbinger"
 					icon: "cataclysm:meat_shredder"
 					id: "527E5D247825938A"
+					title: "Remnant of a forsaken civilisation"
 					type: "kill"
 					value: 1L
 				}
