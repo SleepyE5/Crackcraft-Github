@@ -93,17 +93,15 @@
 			size: 5.0d
 			subtitle: "Finish the create quest line and visit the end"
 			tasks: [{
-				dimension: "minecraft:the_end"
-				icon: {
+				id: "2D629EB68657D20E"
+				item: {
 					Count: 1
-					id: "minecraft:elytra"
+					id: "protection_pixel:openedmaneuveringwing"
 					tag: {
 						Damage: 0
 					}
 				}
-				id: "03DE77DB16E47D77"
-				title: "Visiting the end"
-				type: "dimension"
+				type: "item"
 			}]
 			title: "The End Of Create"
 			x: 10.0d
