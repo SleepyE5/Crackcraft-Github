@@ -333,6 +333,22 @@
 			x: -8.5d
 			y: 2.5d
 		}
+		{
+			id: "64A10EC179DF88A2"
+			tasks: [{
+				id: "36CC62345341BDC8"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: 15.0d
+		}
 	]
 	title: "Getting Started"
 }
