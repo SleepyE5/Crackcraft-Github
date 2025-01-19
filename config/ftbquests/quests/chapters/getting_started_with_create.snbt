@@ -1443,8 +1443,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.75d
-			y: 18.0d
+			x: 20.25d
+			y: 17.25d
 		}
 		{
 			dependencies: ["13D75CCD9B91A6B1"]
@@ -1544,6 +1544,19 @@
 			tasks: [{
 				id: "2B8E5177F6A53A66"
 				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["798EF5337BF8848A"]
+			id: "59296DED78856D12"
+			shape: "rsquare"
+			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated. "
+			tasks: [{
+				id: "43C66175B99E0ED6"
+				item: "create:blaze_cake"
 				type: "item"
 			}]
 			x: 19.5d
